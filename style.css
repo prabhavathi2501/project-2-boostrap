@@ -1,0 +1,112 @@
+:root{
+    --yellow-color: #FFB30E;
+    
+    --yellow-color: #FDBE35;
+    
+   }
+
+
+
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;}
+
+
+  body {
+    margin: 0 ;
+    font-family: "Poppins", sans-serif;
+  }
+  #main1{width:100%; height:auto; }
+.container p{
+    float: left
+    
+}
+
+.look{
+text-align: center;
+}
+.navbar-brand{
+    
+    font-family: Qwigley;!important
+font-size: 80px;
+font-weight: 400;
+line-height: 96px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+section{
+    width: 100%;
+    height: 100vh;
+    font-weight: 400;
+    
+    display: flex;
+    
+
+}
+
+#home{
+background-color: #FFB30E;
+}
+#home .input-group{
+    width:40% ;
+    height: 45px;
+}
+.findfood{
+    background-color: red;!important
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body{
+ margin: 0 ;
+    font-family: "Poppins", sans-serif;}
+.container{
+    display: flex;
+    
+}
+.container p{
+    float: left;
+    padding: 14px 41px;
+    font-size: small;
+    
+}
+/*.hotmeals{font-size: x-large;}
+.container2{
+    width: 1920px
+height: 632px
+top: 101px
+left: 1px
+
+}*/
