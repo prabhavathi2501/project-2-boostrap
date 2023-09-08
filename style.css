@@ -30,13 +30,35 @@ text-align: center;
 .navbar-brand{
     
     font-family: Qwigley;!important
-font-size: 80px;
+font-size: 150px;
 font-weight: 400;
-line-height: 96px;
+line-height: 150px;
 letter-spacing: 0em;
 text-align: left;
 
+
 }
+.meals h2{
+   font-family:Qwigley;!important ;
+color:white;
+
+
+
+}
+
+.ggg{
+    color:#FFB30E
+}
+.card-body{
+    
+    color:#c29433;!importart
+}
+
+
+
+
+
+
 section{
     width: 100%;
     height: 100vh;
@@ -58,55 +80,133 @@ background-color: #FFB30E;
     background-color: red;!important
 }
 
+#section4{
+width: 100%;
+height: 100vh;
+font-weight: 400;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*body{
- margin: 0 ;
-    font-family: "Poppins", sans-serif;}
-.container{
-    display: flex;
-    
-}
-.container p{
+display: flex;
+margin-top:auto;}
+.innersection4{
     float: left;
-    padding: 14px 41px;
-    font-size: small;
+}
+
+
+width: Fixed (407px)
+height: Hug (60px)
+top: 3028px
+left: 276px
+padding: 21px 48px 21px 48px
+border-radius: 8px
+gap: 10px
+
+
+.inner-image{
+    
+height: 512px
+top: 2670px
+left: 739px
+border-radius: 20px
+
+}
+
+
+.figure{
+  width: 550px;
+  height: 80%;
+  margin-top: 75px;
+  margin-right:10px;
+}
+.btn-lg{
+width: Fixed (283.4px)
+height: Hug (60px)
+top: 3757px
+left: 225px
+padding: 21px px 21px 48px
+border-radius: 8px
+gap: 10px
+}
+#work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto));!important
+}
+
+#foodlist{
+    max-width: 100%;
+    height:vp;
+    padding: 800px;!important
+}
+
+#items{
+
+ display: flex; !important
+
+    
+    width: 50%;
+}
+#foodlist  img{
+  
+   width: 350.79315185546875px;!important
+height: 283px
+top: 3994px
+left: 1423px
+border-radius: 10px
+
+}
+
+
+
+
+#foodlist2{
+    padding: 800px 48px ;!important
+    margin: auto;
+
+}
+.item-2{
+    display: flex;!important
+}
+
+#footer{
+    width: 100%;
+    height: vp;
+    background-color:;
+}
+
+
+
+/*.line{
+    width: 1000px;
+    height: 3px;
+    bottom: 400px;!important
+    top:px;
+}*/
+.footer2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(1200px,auto)); !important
+flex-gap:10px;
+}
+
+#footer{
+    background-color:black;
+ 
+    padding:200px 50px;
     
 }
-/*.hotmeals{font-size: x-large;}
-.container2{
-    width: 1920px
-height: 632px
-top: 101px
-left: 1px
+.container{
+    max-width: 1170px;
+    background-color:;
+    margin: auto;
+   
+}
+#footerrow{
+    display: flex;
+    flex-wrap:wrap;
+}
 
-}*/
+
+
+
+
+.mailbox{
+    color: beige;
+}

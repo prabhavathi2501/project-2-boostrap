@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project--2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Qwigley&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="main"><!--main part-->
@@ -14,56 +18,40 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Hot meals</a>
-          <p>Deliver to:<img src="geo-alt.svg"current  <b>Ashok Nager Chennai-600253</b></p>
-    <p> serch food</p>
-    <button class="btn btn-light btn-boder">log in</button>
+          <p>Deliver to:<i class="fa-solid fa-location-dot" style="color: #eee71b;"></i>current  <b>Ashok Nager Chennai-600253</b></p>
+    <p><i class="fa-solid fa-magnifying-glass" style="color: #e0b61f;"></i> serch food</p>
+    <button type="button" class="btn btn-outline-warning btn-lg"><i class="fa-solid fa-user" style="color: #e17209;"></i>login</button>
     </div>
       </nav>
-     <!-- <header>
-        <section>
-      <div id="header">
-     <p class="look">Look at your fav Meals</p><br>
-     <p>Within a few clicks, find meals that are accessible near you</p>
-     <label for="">
-        
-     </label>-->
-  <!--  <section id="home">
-        <div class="container-fluid">
-            <div class="col-6 col-6">
-                <h2 class="text-center">Look at your fav Meals</h2>
-                <p class="text-center">Within a few clicks, find meals that are accessible near you</p>
-            </div>
-            <div class="input-group">
-                <input type="text" placeholder="Enter your addrees">
-                <button class="btn find food">find food</button>
-                </div>
-        <div class="input-group">
-        <input type="text" placeholder="Enter your addrees">
-        <button class="btn find food">find food</button>
-        </div>
-        <div class="img">
-            <img src="./image/pngegg 1.png">
-        </div>
+     
+    
 
-    </div>
-</div>-->
 <!--section 2 start-->
     <section id="home">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-3 my-5">
-
-                    <h2 class="text-center">Look at your fav Meals</h2>
+                  <div class="meals">
+                    <h2 class="text-center">Look at your fav Meals</h2></div>
                     <p class="text-center">Within a few clicks, find meals that are accessible near you</p>
-                    <div class="input-group">
-                        <input type="text" placeholder="Enter your addrees">
-                        <button class="btn find food">find food</button>
+                    
+                     
+                   <div class="col-auto">
+                      <label for="inputPassword2" class="visually-hidden">Password</label>
+                      <input type="password" class="form-control" id="inputPassword2" placeholder="Enter your name">
+                      
+                    </div>
+                    
+                        <div class="col-auto">
+                          <label for="address" class="visually-hidden">Enter your address</label>
+                          <input type="text" class="form-control" id="address" placeholder="Enter your address" >
+                          
+                          
                         </div>
-                <div class="input-group">
-                <input type="text" placeholder="Enter your addrees">
-                <button class="btn find food">find food</button>
-                </div>
-
+                       <div class="col-auto">
+                          <button type="submit" class="btn btn-danger mb-2"><i class="fa-thin fa-magnifying-glass"></i>Find Food</button>
+                        </div>
+                        
 
                 </div>
                 <div class="col-lg-6 col-md-6 col-12 my-2 p-2 ">
@@ -74,7 +62,7 @@
      </section>
      <!--end-->
 
- <section id="min Delivery">
+ <section id="main Delivery">
       <div class="container my-5">
         <div class="row">
           <div class="col-lg-3 col-md-3 col-12">
@@ -82,7 +70,7 @@
                 <img src="./image/vada.png" class="card-img-top" >
                 <div class="card-body">
                   <h5 class="card-title">vada</h5>
-                  <a href="#" class="btn btn-primary">30 min Delivery</a>
+                  <a href="#" class="btn btn-danger">30 min Delivery</a>
                 </div>
               </div>
           </div>
@@ -91,7 +79,7 @@
                 <img src="./image/idaly.png" class="card-img-top" >
                 <div class="card-body">
                   <h5 class="card-title">idly</h5>
-                  <a href="#" class="btn btn-primary">30 min Delivery</a>
+                  <a href="#" class="btn btn-danger">30 min Delivery</a>
                 </div>
               </div>
           </div>
@@ -100,7 +88,7 @@
                 <img src="./image/paroto.png" class="card-img-top" >
                 <div class="card-body">
                   <h5 class="card-title">parotta</h5>
-                  <a href="#" class="btn btn-primary">30 min Delivery</a>
+                  <a href="#" class="btn btn-danger">30 min Delivery</a>
                 </div>
               </div>
           </div>
@@ -109,36 +97,388 @@
                 <img src="./image/kichadi.png" class="card-img-top" >
                 <div class="card-body">
                   <h5 class="card-title">kichadi</h5>
-                  <a href="#" class="btn btn-primary">30 min Delivery</a>
+                  <a href="#" class="btn btn-danger">30 min Delivery</a>
                 </div>
               </div>
           </div>
         </div>
     </div>
  </section>
+<!--section end3-->
 
- <section id="clock">
-    <div class="container my-2">
-        <h3 class="text-center ">How does it work</h3>
-        <div class="row">
-            <div class="col-4">
-                <img src="./image/Icon.png">
-               >
-            </div>
-
+<!--section start4-->
+<section id="section4">
+  <div class="container-fluid">
+    <h1 class="text-center ggg " style="top:50px">How does it work</h1>
+    <div id="work">
+    <div class="card mb-3 d-flex" style="max-width: 300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./image/Icon.png">
         </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title ">Daily <br>Discount </h5>
+         
+          </div>
+        </div>
+      </div>
     </div>
- </section>
+    
+    <div class="card mb-3 d-flex" style="max-width: 300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./image/Icon (1).png" >
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title ">Live<br>
+              Tracing</h5>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 d-flex " style="max-width: 300px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="./image/Icon (3).png"> 
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title  ">Quick<br>
+              Delivery</h5>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!--sect4ens-->
 
 
+<section id="listitem">
+  <div class="container my-5">
+    <h3>Search by Food</h3>
+    <div class="row">
+      <div class="col-lg-2 col-md-2 col-12">
+        <div class="card " >
+            <img src="./image/Food Photo.png"> 
+            <div class="card-body">
+              <h5 class="card-title">dosa</h5>
+             
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-12">
+        <div class="card" >
+            <img src="./image/Food Photo (1).png" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Aapppm</h5>
+             
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-12">
+        <div class="card" >
+            <img src="./image/Food Photo (3).png" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">puttu</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-12">
+        <div class="card" >
+            <img src="./image/Food Photo (3).png" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Idiyappam</h5>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-12">
+        <div class="card" >
+            <img src="./image/Food Photo (4).png" class="card-img-top" >
+            <div class="card-body">
+              <h5 class="card-title">Pongal</h5>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-12">
+        <div class="card" >
+            <img  src="./image/Food Photo (5).png" >
+            <div class="card-body">
+              <h5 class="card-title">Veg Rice</h5>
+              </div>
+          </div>
+      </div>
+ 
 
 
+      <section id="prodcut">
+  <div class="container-fluid ">
+    <div class="row">
+  <div class="col-lg-6 col-md-6 col-12 p-lg-5 p-3 my-5">
+      <div class="card" style="width: 400px; height: 280px;" >
+        <div class="card-body">
+          <h2 class="card-title " style="width: 600px
+          height: 96px ">Best deals <h3 class="text-warning">Crispy Diffen</h3></h3>
+          
+          <p class="card-text"> Enjoy the large size of Dosa. Complete <br>
+            perfect slice of Dosa.</p>
+          
+        </div>
+        <button type="button" class="btn btn-warning">
+        Proceed to order
+</button>
+      </div>
+      </div>
+
+ <div class="col-lg-2 col-md-2 col-12 ">
+  <figure class="figure">
+    <img src="./image/Image (4).png" class="figure-img img-fluid rounded" alt="...">
+   
+  </figure>
+ </div>
+ </div>
+</div>
+
+</section><!--end-->
+
+
+     <sectio id="food list">
+      <div class="container-fluid my-5">
+       <h3 class="text-center">Popular items</h3>
+        <div class="row">
+          <div id="items">
+            
+        <div class="col-sm-2 column-gap-md-2 col-12">
+              <div class="card" >
+                  <img src="./image/Rectangle 336.png" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title">Muruku</h5></div>
+                    
+                </div>
+                <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+            </div>
+            
+            
+            <div class="col-sm-2 column-gap-md-3 col-12">
+              <div class="card" >
+                  <img src="./image/Rectangle 336 (2).png" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title">Paniyaram</h5></div>
+                    
+                </div>
+                <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+            </div>
+            
+            
+            <div class="col-sm-2 column-gap-xxl-3 col-12">
+              <div class="card" >
+                  <img src="./image/Rectangle 336 (8).png" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title text-sm-start">Muruku</h5></div>
+                    
+                </div>
+                <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+            </div>
+          
+
+            
+            <div class="col-lg-2 column-gap-md-3 col-12">
+              <div class="card" >
+                  <img src="./image/Rectangle 336 (9).png" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title">Mixture</h5></div>
+                    
+                </div>
+                <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+            </div>
+            
+
+            
+            <div class="col-lg-2 column-gap-sm-3 col-12">
+              <div class="card" >
+                  <img src="./image/Rectangle 336 (7).png" class="card-img-top" >
+                  <div class="card-body">
+                    <h5 class="card-title">Veg Soup</h5></div>
+                    
+                </div>
+                <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+   
+  <section id="foodlist2">
+    <div class="row">
+      <div class="item-2">
+        <div class="col-lg-2 column-gap-sm-3 col-12">
+          <div class="card" >
+              <img src="./image/Rectangle 339.png" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Muruku</h5></div>
+                
+            </div>
+            <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+        </div>
+        <div class="col-lg-2 column-gap-sm-3 col-12">
+          <div class="card" >
+              <img src="./image/Rectangle 340.png" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Porivellangai </h5></div>
+                
+            </div>
+            <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+        </div>
+        <div class="col-lg-2 column-gap-sm-3 col-12">
+          <div class="card" >
+              <img src="./image/Rectangle 341.png" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Jangri</h5></div>
+                
+            </div>
+            <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+        </div>
+        <div class="col-lg-2 column-gap-sm-3 col-12">
+          <div class="card" >
+              <img src="./image/Rectangle 342 (1).png" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Lattu</h5></div>
+                
+            </div>
+            <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+        </div>
+        <div class="col-lg-2 column-gap-sm-3 col-12">
+          <div class="card" >
+              <img src="./image/Rectangle 336 (8).png" class="card-img-top" >
+              <div class="card-body">
+                <h5 class="card-title">Halwa</h5></div>
+                
+            </div>
+            <button type="button" class="btn btn-danger btn-lg">Order Now</button>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+   
+
+
+  
+  
 
      
-   
-   
   
-   </div><!--container end-->
+
+  <section id="footer">
+    
+    <div class="container-fluid">
+      <div class="row">
+       
+        <div class="col-lg-6">
+          
+          
+   <table class="table table-borderless  table-dark">
+        <thead>
+          <tr>
+            <th>company</th>
+            <th>Contact</th>
+            <th>Legal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>About us</td>
+            <td>Help & Support</td>
+            <td>Terms & Conditions</td>
+            
+          </tr>
+          <tr>
+            <td>Team </td>
+            <td>Partner with us </td>
+            <td>Refund & Cancellation</td>
+          </tr>
+          <tr>
+            <td>career</td>
+            <td>Ride with us</td>
+            <td>Privacy Policy</td>
+           
+          </tr>
+        </tbody>
+      </table>
+          
+
+
+        </div>
+        <div class="col-lg-6">
+
+
+<div class="mailbox">
+<h6>Follow us</h6>
+<div class="follow">
+  <a href="#"><i class="fa-brands fa-facebook" style="color: #041025;"></i>
+    <i class="fa-solid fa-camera" style="color: #010a19;"></i>
+    <i class="fa-brands fa-twitter" style="color: #0a1324;"></i></a>
+</div>
+<p>Receive exclusive offers in your mailbox</p>
+<div class="btn">
+<button type="button" class="btn btn-secondary btn-lg"><i class="fa-solid fa-envelope" style="color: #929fb5;"></i>Enter your mail</button>
+
+<button type="button" class="btn btn-warning btn-lg">Subscribe</button></div>
+</div>
+      
+   </div>   
+      
+      </div>
+     
+    </div>
+    
+  </section>
+  
+  
+
+    
+  
+
+
+
+
+
+
+</div>
+</div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div><!--container end-->
    </div><!--main1 end-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </div><!--end-->
