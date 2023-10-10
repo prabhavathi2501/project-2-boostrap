@@ -27,14 +27,16 @@
 .look{
 text-align: center;
 }
-.navbar-brand{
+.navbar-brand h1{
     
     font-family: Qwigley;!important
-font-size: 150px;
+/* font-size: 500px;
 font-weight: 400;
 line-height: 150px;
 letter-spacing: 0em;
-text-align: left;
+text-align: left; */
+/* font-weight: 800;
+font-size: */
 
 
 }
